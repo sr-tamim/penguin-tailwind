@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Mart</title>
+
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="pb-16 mb-16"
+        style="background:url(images/header-back.png);background-size:cover;background-position:center;">
+        <!-- navbar -->
+        <div class="flex flex-col md:flex-row md:justify-between p-5 mx-auto max-w-screen-xl">
+            <div class="logo flex flex-row items-center justify-center">
+                <img src="icons/logo-img.png">
+                <div class="font-bold text-xl text-gray-500 ml-2">
+                    <span class="text-yellow-600">Penguin</span> Mart
+                </div>
+            </div>
+            <div class="nav text-xs sm:text-base text-gray-500 flex justify-evenly items-center mt-4 md:mt-0 md:pl-8">
+                <div class="nav-item font-semibold px-1 md:px-4"><a href="#">Home</a></div>
+                <div class="nav-item font-semibold px-1 md:px-4"><a href="#">Products</a></div>
+                <div class="nav-item font-semibold px-1 md:px-4"><a href="#">About Us</a></div>
+                <div class="nav-item font-semibold px-1 md:px-4"><a href="#">Contact Us</a></div>
+            </div>
+        </div>
+        <!-- hero section -->
+        <section class="flex flex-col-reverse items-center lg:flex-row px-4 py-8 md:py-20 mx-auto max-w-screen-xl">
+            <div class="hero-image w-full max-w-xl lg:w-2/4">
+                <img class="w-full" src="images/hero-img.png" alt="">
+            </div>
+            <div class="w-full lg:w-2/4 flex flex-col justify-center items-center">
+                <div>
+                    <h1 class="uppercase text-yellow-500 font-bold text-4xl sm:text-6xl lg:text-7xl">Nike
+                        React</h1>
+                    <h1 class="uppercase text-gray-700 font-bold text-4xl sm:text-6xl">Infiniy Run 2</h1>
+                    <p class="max-w-md my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ullam.
+                    </p>
+
+                    <a href="#"
+                        class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-6 py-3 rounded-lg">
+                        <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                        buy now
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- products section -->
+    <section class="max-w-screen-xl mx-auto px-4">
+        <!-- casual shoes -->
+        <div class="my-16">
+            <h1 class="uppercase text-4xl">casual shoes</h1>
+            <div class="grid lg:grid-cols-3 gap-6 py-6">
+                <div class="shadow-xl p-5 rounded-xl max-w-sm mx-auto">
+                    <div class="h-80 bg-gray-100 mb-3 rounded-xl">
+                        <img class="h-full mx-auto" src="images/casual-1.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold">Nike Shoe</h4>
+                        <p class="text-justify my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis unde eos
+                            voluptate.
+                        </p>
+                        <div class="flex flex-row justify-between items-center">
+                            <div class="price text-3xl font-bold text-yellow-700">$234</div>
+                            <div class="button my-4 sm:my-0">
+                                <a href="#"
+                                    class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-4 py-3 rounded-lg">
+                                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                                    buy now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl p-5 rounded-xl max-w-sm mx-auto">
+                    <div class="h-80 bg-gray-100 mb-3 p-4 rounded-xl">
+                        <img class="h-full mx-auto" src="images/casual-2.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold">Sneakers Skate Shoe</h4>
+                        <p class="text-justify my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis unde eos
+                            voluptate.
+                        </p>
+                        <div class="flex flex-row justify-between items-center">
+                            <div class="price text-3xl font-bold text-yellow-700">$234</div>
+                            <div class="button my-4 sm:my-0">
+                                <a href="#"
+                                    class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-4 py-3 rounded-lg">
+                                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                                    buy now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl p-5 rounded-xl max-w-sm mx-auto">
+                    <div class="h-80 bg-gray-100 mb-3 rounded-xl">
+                        <img class="h-full mx-auto" src="images/casual-3.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold">Sneakers Basketball Shoe</h4>
+                        <p class="text-justify my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis unde eos
+                            voluptate.
+                        </p>
+                        <div class="flex flex-row justify-between items-center">
+                            <div class="price text-3xl font-bold text-yellow-700">$234</div>
+                            <div class="button my-4 sm:my-0">
+                                <a href="#"
+                                    class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-4 py-3 rounded-lg">
+                                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                                    buy now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- formal shoes -->
+        <div class="my-16">
+            <h1 class="uppercase text-4xl">formal shoes</h1>
+            <div class="grid lg:grid-cols-3 gap-6 py-6">
+                <div class="shadow-xl p-5 rounded-xl max-w-sm mx-auto">
+                    <div class="h-64 bg-gray-100 mb-3 px-6 rounded-xl">
+                        <img class="h-full mx-auto" src="images/formal-1.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold">Nike Shoe</h4>
+                        <p class="text-justify my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis unde eos
+                            voluptate.
+                        </p>
+                        <div class="flex flex-row justify-between items-center">
+                            <div class="price text-3xl font-bold text-yellow-700">$234</div>
+                            <div class="button my-4 sm:my-0">
+                                <a href="#"
+                                    class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-4 py-3 rounded-lg">
+                                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                                    buy now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl p-5 rounded-xl max-w-sm mx-auto">
+                    <div class="h-64 bg-gray-100 mb-3 px-6 rounded-xl">
+                        <img class="h-full mx-auto" src="images/formal-2.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold">Nike Shoe</h4>
+                        <p class="text-justify my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis unde eos
+                            voluptate.
+                        </p>
+                        <div class="flex flex-row justify-between items-center">
+                            <div class="price text-3xl font-bold text-yellow-700">$234</div>
+                            <div class="button my-4 sm:my-0">
+                                <a href="#"
+                                    class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-4 py-3 rounded-lg">
+                                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                                    buy now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-xl p-5 rounded-xl max-w-sm mx-auto">
+                    <div class="h-64 bg-gray-100 mb-3 px-6 rounded-xl">
+                        <img class="h-full mx-auto" src="images/formal-3.png" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold">Nike Shoe</h4>
+                        <p class="text-justify my-3">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident debitis unde eos
+                            voluptate.
+                        </p>
+                        <div class="flex flex-row justify-between items-center">
+                            <div class="price text-3xl font-bold text-yellow-700">$234</div>
+                            <div class="button my-4 sm:my-0">
+                                <a href="#"
+                                    class="w-max uppercase text-white text-sm font-bold flex items-center bg-gradient-to-b from-yellow-400 to-yellow-700 px-4 py-3 rounded-lg">
+                                    <img class="w-6 mr-2" src="icons/shopping-cart 1.png">
+                                    buy now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our services section -->
+    <section class="max-w-screen-xl mx-auto px-4 py-20 mb-28">
+        <div class="grid lg:grid-cols-2 gap-8">
+            <div
+                class="order-2 lg:order-1 flex items-center shadow-xl py-4 pr-6 sm:py-6 sm:pr-24 rounded-xl max-w-screen-sm mx-auto">
+                <div class="w-24 mx-6">
+                    <img class="w-full" src="icons/service-1.png">
+                </div>
+                <div class="flex-grow">
+                    <h4 class="text-md sm:text-xl font-bold mb-1 sm:mb-2">Find the Perfect Fit</h4>
+                    <p class="text-xs sm:text-base">Everybody is different, which is why we offer styles for every body.
+                    </p>
+                </div>
+            </div>
+            <div class="row-span-3 order-1 lg:order-2 flex items-center max-w-screen-sm mx-auto">
+                <img class="w-full" src="images/service-img.png">
+            </div>
+            <div
+                class="order-3 flex items-center shadow-xl py-4 pr-6 sm:py-6 sm:pr-24 rounded-xl max-w-screen-sm mx-auto">
+                <div class="w-24 mx-6">
+                    <img class="w-full" src="icons/service-2.png">
+                </div>
+                <div class="flex-grow">
+                    <h4 class="text-md sm:text-xl font-bold mb-1 sm:mb-2">Find the Perfect Fit</h4>
+                    <p class="text-xs sm:text-base">Everybody is different, which is why we offer styles for every body.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="order-4 flex items-center shadow-xl py-4 pr-6 sm:py-6 sm:pr-24 rounded-xl max-w-screen-sm mx-auto">
+                <div class="w-24 mx-6">
+                    <img class="w-full" src="icons/service-3.png">
+                </div>
+                <div class="flex-grow">
+                    <h4 class="text-md sm:text-xl font-bold mb-1 sm:mb-2">Find the Perfect Fit</h4>
+                    <p class="text-xs sm:text-base">Everybody is different, which is why we offer styles for every body.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
